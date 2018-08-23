@@ -3057,23 +3057,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TM\\.nuget\\packages\\": {},
+    "C:\\Users\\minht\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Applications\\Vinaphone\\Models.Core\\Models.Core.csproj",
+      "projectUniqueName": "D:\\Applications\\Vinaphone\\Models.Core\\Models.Core.csproj",
       "projectName": "Models.Core",
-      "projectPath": "d:\\Applications\\Vinaphone\\Models.Core\\Models.Core.csproj",
-      "packagesPath": "C:\\Users\\TM\\.nuget\\packages\\",
-      "outputPath": "d:\\Applications\\Vinaphone\\Models.Core\\obj\\",
+      "projectPath": "D:\\Applications\\Vinaphone\\Models.Core\\Models.Core.csproj",
+      "packagesPath": "C:\\Users\\minht\\.nuget\\packages\\",
+      "outputPath": "D:\\Applications\\Vinaphone\\Models.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\TM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\minht\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
