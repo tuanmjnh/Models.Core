@@ -1,0 +1,9 @@
+D:\Applications\Vinaphone\Models.Core\bin\Debug\netcoreapp2.1\Models.Core.deps.json
+D:\Applications\Vinaphone\Models.Core\bin\Debug\netcoreapp2.1\Models.Core.dll
+D:\Applications\Vinaphone\Models.Core\bin\Debug\netcoreapp2.1\Models.Core.pdb
+D:\Applications\Vinaphone\Models.Core\obj\Debug\netcoreapp2.1\Models.Core.csprojAssemblyReference.cache
+D:\Applications\Vinaphone\Models.Core\obj\Debug\netcoreapp2.1\Models.Core.csproj.CoreCompileInputs.cache
+D:\Applications\Vinaphone\Models.Core\obj\Debug\netcoreapp2.1\Models.Core.AssemblyInfoInputs.cache
+D:\Applications\Vinaphone\Models.Core\obj\Debug\netcoreapp2.1\Models.Core.AssemblyInfo.cs
+D:\Applications\Vinaphone\Models.Core\obj\Debug\netcoreapp2.1\Models.Core.dll
+D:\Applications\Vinaphone\Models.Core\obj\Debug\netcoreapp2.1\Models.Core.pdb
