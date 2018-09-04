@@ -3,8 +3,8 @@ namespace Models.Core {
     using System.ComponentModel.DataAnnotations.Schema;
     using System.ComponentModel.DataAnnotations;
     using System;
-
-    public partial class setting {
+    [Table("setting")]
+    public partial class Setting {
         public Guid id { get; set; }
 
         [Required]

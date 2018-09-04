@@ -3,8 +3,8 @@ namespace Models.Core {
     using System.ComponentModel.DataAnnotations.Schema;
     using System.ComponentModel.DataAnnotations;
     using System;
-
-    public partial class subscriber_growth {
+    [Table("subscriber_growth")]
+    public partial class SubscriberGrowth {
         public Guid id { get; set; }
 
         [StringLength(150)]

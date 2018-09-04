@@ -5,7 +5,7 @@ namespace Models.Core {
     using System;
 
     [Table("staff")]
-    public partial class staff {
+    public partial class Staff {
         public Guid id { get; set; }
 
         public Guid? user_id { get; set; }

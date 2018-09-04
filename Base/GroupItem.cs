@@ -3,39 +3,16 @@ namespace Models.Core {
     using System.ComponentModel.DataAnnotations.Schema;
     using System.ComponentModel.DataAnnotations;
     using System;
-
-    public partial class sub_item {
+    [Table("group_item")]
+    public partial class GroupItem {
         public Guid id { get; set; }
 
         [StringLength(128)]
         public string app_key { get; set; }
 
-        [StringLength(255)]
-        public string id_key { get; set; }
+        public Guid? group_id { get; set; }
 
         public Guid? item_id { get; set; }
-
-        [StringLength(255)]
-        public string main_key { get; set; }
-
-        [StringLength(255)]
-        public string value { get; set; }
-
-        [StringLength(255)]
-        public string sub_value { get; set; }
-
-        public string images { get; set; }
-
-        public long? quantity { get; set; }
-
-        public long? quantity_total { get; set; }
-
-        public decimal? price_old { get; set; }
-
-        public decimal? price { get; set; }
-
-        [Column(TypeName = "ntext")]
-        public string desc { get; set; }
 
         public DateTime? started_at { get; set; }
 

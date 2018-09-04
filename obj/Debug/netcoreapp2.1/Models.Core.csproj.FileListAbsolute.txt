@@ -7,3 +7,6 @@ D:\Applications\Vinaphone\Models.Core\obj\Debug\netcoreapp2.1\Models.Core.Assemb
 D:\Applications\Vinaphone\Models.Core\obj\Debug\netcoreapp2.1\Models.Core.AssemblyInfo.cs
 D:\Applications\Vinaphone\Models.Core\obj\Debug\netcoreapp2.1\Models.Core.dll
 D:\Applications\Vinaphone\Models.Core\obj\Debug\netcoreapp2.1\Models.Core.pdb
+D:\Applications\Vinaphone\Models.Core\bin\Debug\netcoreapp2.1\TM.Core.dll
+D:\Applications\Vinaphone\Models.Core\bin\Debug\netcoreapp2.1\TM.Core.pdb
+D:\Applications\Vinaphone\Models.Core\obj\Debug\netcoreapp2.1\Models.Core.csproj.CopyComplete

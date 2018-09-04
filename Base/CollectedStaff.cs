@@ -4,7 +4,8 @@ namespace Models.Core {
     using System.ComponentModel.DataAnnotations;
     using System;
 
-    public partial class collected_staff {
+    [Table("collected_staff")]
+    public partial class CollectedStaff {
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public long id { get; set; }
 

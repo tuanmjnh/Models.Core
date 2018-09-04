@@ -5,7 +5,7 @@ namespace Models.Core {
     using System;
 
     [Table("local")]
-    public partial class local {
+    public partial class Local {
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public long id { get; set; }
 
