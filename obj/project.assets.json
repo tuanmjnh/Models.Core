@@ -11739,8 +11739,8 @@
     },
     "TM.Core/1.0.0": {
       "type": "project",
-      "path": "../../TM.Core/TM.Core.csproj",
-      "msbuildProject": "../../TM.Core/TM.Core.csproj"
+      "path": "../TM.Core/TM.Core.csproj",
+      "msbuildProject": "../TM.Core/TM.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11756,11 +11756,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Applications\\Vinaphone\\Models.Core\\Models.Core.csproj",
+      "projectUniqueName": "d:\\Applications\\Models.Core\\Models.Core.csproj",
       "projectName": "Models.Core",
-      "projectPath": "D:\\Applications\\Vinaphone\\Models.Core\\Models.Core.csproj",
+      "projectPath": "d:\\Applications\\Models.Core\\Models.Core.csproj",
       "packagesPath": "C:\\Users\\TM\\.nuget\\packages\\",
-      "outputPath": "D:\\Applications\\Vinaphone\\Models.Core\\obj\\",
+      "outputPath": "d:\\Applications\\Models.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11779,8 +11779,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Applications\\TM.Core\\TM.Core.csproj": {
-              "projectPath": "D:\\Applications\\TM.Core\\TM.Core.csproj"
+            "d:\\Applications\\TM.Core\\TM.Core.csproj": {
+              "projectPath": "d:\\Applications\\TM.Core\\TM.Core.csproj"
             }
           }
         }
