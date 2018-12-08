@@ -8,12 +8,11 @@
         [Dapper.Contrib.Extensions.ExplicitKey]
         public string contract_customer_id { get; set; }
         public string app_key { get; set; }
-        public int local_id { get; set; }
-        public string contract_code { get; set; }
-        public string customer_name { get; set; }
-        public string customer_address { get; set; }
-        public string customer_phone { get; set; }
-        public string accounts { get; set; }
+        public int donvi_id { get; set; }
+        public string ma_gd { get; set; }
+        public string ten_kh { get; set; }
+        public string so_dt { get; set; }
+        public string ma_tb { get; set; }
         public string attachs { get; set; }
         public string details { get; set; }
         public string created_by { get; set; }
@@ -28,5 +27,12 @@
         public int account_number { get; set; }
         public int flag { get; set; }
         public int type_id { get; set; }
+        public int thuebao_id { get; set; }
+        public string so_gt { get; set; }
+        public string mst { get; set; }
+        public string stk { get; set; }
+        public string diachi_kh { get; set; }
+        public string diachi_tb { get; set; }
+        public string diachi_ld { get; set; }
     }
 }
