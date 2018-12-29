@@ -13,7 +13,7 @@
         public string ten_kh { get; set; }
         public string so_dt { get; set; }
         public string ma_tb { get; set; }
-        public string attachs { get; set; }
+        public string attach { get; set; }
         public string details { get; set; }
         public string created_by { get; set; }
         public DateTime? created_at { get; set; }

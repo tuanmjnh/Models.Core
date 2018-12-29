@@ -20,7 +20,7 @@
         public string price { get; set; }
         public string details { get; set; }
         public string contents { get; set; }
-        public string attachs { get; set; }
+        public string attach { get; set; }
         public string created_by { get; set; }
         public DateTime? created_at { get; set; }
         public string updated_by { get; set; }
