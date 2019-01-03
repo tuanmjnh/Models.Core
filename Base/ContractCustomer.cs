@@ -33,6 +33,5 @@
         public DateTime? cfm_at { get; set; }
         public int flag { get; set; }
         public int loaihd_id { get; set; }
-        public int kieuhd_id { get; set; }
     }
 }
