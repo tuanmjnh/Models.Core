@@ -5,6 +5,7 @@
 
     [Table("contract_customer_thuebao")]
     public partial class ContractCustomerThueBao {
+        [Dapper.Contrib.Extensions.ExplicitKey]
         public long hdtb_id { get; set; }
         public long? hdtb_cha_id { get; set; }
         public long thuebao_id { get; set; }
@@ -21,5 +22,9 @@
         public int doituong_id { get; set; }
         public int dichvuvt_id { get; set; }
         public int donvi_id { get; set; }
+        public string ten_dv { get; set; }
+        public string loaihinh_tb { get; set; }
+        public string ten_dvvt { get; set; }
+        public string ten_dt { get; set; }
     }
 }
