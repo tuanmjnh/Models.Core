@@ -69,5 +69,8 @@
         public int mucdo_id { get; set; }
         public int tbtl_id { get; set; }
         public int kenhtn_id { get; set; }
+        public string ten_dv { get; set; }
+        public string ten_loaihd { get; set; }
+        public string ten_loaikh { get; set; }
     }
 }
