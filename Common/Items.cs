@@ -1,11 +1,7 @@
-﻿namespace Models.Core {
-    using System.ComponentModel.DataAnnotations.Schema;
-    using System.ComponentModel.DataAnnotations;
+﻿namespace Models.Core.Common {
     using System;
 
-    [Table("items")]
-    public partial class Items {
-        [Dapper.Contrib.Extensions.Key]
+    public partial class Flag {
         public int id { get; set; }
         public string app_key { get; set; }
         public string title { get; set; }

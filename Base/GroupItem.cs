@@ -1,37 +1,27 @@
-namespace Models.Core {
-    using System.Collections.Generic;
+﻿namespace Models.Core {
     using System.ComponentModel.DataAnnotations.Schema;
     using System.ComponentModel.DataAnnotations;
     using System;
+
     [Table("group_item")]
     public partial class GroupItem {
-        public Guid id { get; set; }
-
-        [StringLength(128)]
+        [Dapper.Contrib.Extensions.Key]
+        public int id { get; set; }
         public string app_key { get; set; }
-
-        public Guid? group_id { get; set; }
-
-        public Guid? item_id { get; set; }
-
-        public DateTime? started_at { get; set; }
-
-        public DateTime? ended_at { get; set; }
-
-        public int? orders { get; set; }
-
-        [StringLength(128)]
+        public int group_id { get; set; }
+        public int item_id { get; set; }
+        public string descs { get; set; }
+        public string contents { get; set; }
+        public int quantity { get; set; }
+        public int orders { get; set; }
+        public DateTime? start_at { get; set; }
+        public DateTime? end_at { get; set; }
         public string created_by { get; set; }
-
         public DateTime? created_at { get; set; }
-
-        [StringLength(128)]
         public string updated_by { get; set; }
-
         public DateTime? updated_at { get; set; }
-
-        public int? flag { get; set; }
-
-        public string extras { get; set; }
+        public string deleted_by { get; set; }
+        public DateTime? deleted_at { get; set; }
+        public int flag { get; set; }
     }
 }
