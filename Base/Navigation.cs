@@ -7,6 +7,8 @@
     public partial class Navigation {
         [Dapper.Contrib.Extensions.Key]
         public int id { get; set; }
+        public string app_key { get; set; }
+        public string code { get; set; }
         public string dependent { get; set; }
         // public int parent_id { get; set; }
         // public string parents { get; set; }
@@ -15,6 +17,10 @@
         public string icon { get; set; }
         public string image { get; set; }
         public string url { get; set; }
+        public string url_plus { get; set; }
+        public string push { get; set; }
+        public string go { get; set; }
+        public string store { get; set; }
         public int orders { get; set; }
         public string descs { get; set; }
         public string created_by { get; set; }
