@@ -3,8 +3,8 @@
     using System.ComponentModel.DataAnnotations;
     using System;
 
-    [Table("language_items")]
-    public partial class LanguageItems {
+    [Table("dictionary")]
+    public partial class Dictionary {
         [Dapper.Contrib.Extensions.ExplicitKey]
         public long id { get; set; }
         public string lang_code { get; set; }
