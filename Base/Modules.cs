@@ -9,8 +9,8 @@
         public string id { get; set; }
         public string code { get; set; }
         public string title { get; set; }
-        public string icon { get; set; }
-        public string image { get; set; }
+        public int required_auth { get; set; }
+        public string alias { get; set; }
         public string url { get; set; }
         public string permissions { get; set; }
         public int orders { get; set; }
