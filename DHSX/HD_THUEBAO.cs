@@ -1,10 +1,12 @@
-﻿namespace Models.Core {
+﻿namespace Models.Core
+{
     using System.ComponentModel.DataAnnotations.Schema;
     using System.ComponentModel.DataAnnotations;
     using System;
 
     [Table("HD_THUEBAO")]
-    public partial class HD_THUEBAO {
+    public partial class HD_THUEBAO
+    {
         // [Dapper.Contrib.Extensions.Key]
         public long hdtb_id { get; set; }
         public long thuebao_id { get; set; }
@@ -68,6 +70,9 @@
         public int nhacc_cu_id { get; set; }
         public int doituong_ct_id { get; set; }
         public int htcm_id { get; set; }
-
+        public string ten_dt { get; set; }
+        public string ten_dvvt { get; set; }
+        public string loaihinh_tb { get; set; }
+        public string ten_dv { get; set; }
     }
 }

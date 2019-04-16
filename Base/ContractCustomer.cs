@@ -8,7 +8,7 @@
         [Dapper.Contrib.Extensions.ExplicitKey]
         public string id { get; set; }
         public long hdkh_id { get; set; }
-        public long app_key { get; set; }
+        public string attach { get; set; }
         public string descs { get; set; }
         public string created_by { get; set; }
         public DateTime? created_at { get; set; }
