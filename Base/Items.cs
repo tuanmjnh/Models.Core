@@ -19,6 +19,7 @@
         public int quantity { get; set; }
         public string descs { get; set; }
         public string content { get; set; }
+        public string attach { get; set; }
         public string tags { get; set; }
         public string created_ip { get; set; }
         public string created_by { get; set; }

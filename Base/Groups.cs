@@ -23,6 +23,7 @@
         public string descs { get; set; }
         public string content { get; set; }
         public string tags { get; set; }
+        public string attach { get; set; }
         public DateTime? start_at { get; set; }
         public DateTime? end_at { get; set; }
         public string created_ip { get; set; }

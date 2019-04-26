@@ -6,7 +6,7 @@
     [Table("HD_KHACHHANG")]
     public partial class HD_KHACHHANG {
         // [Dapper.Contrib.Extensions.Key]
-        public long hdkh_id { get; set; }
+        public string hdkh_id { get; set; }
         public string ma_gd { get; set; }
         public string ma_hd { get; set; }
         public string ma_kh { get; set; }
