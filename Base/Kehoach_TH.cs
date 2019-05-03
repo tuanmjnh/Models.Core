@@ -10,7 +10,7 @@
         [Dapper.Contrib.Extensions.ExplicitKey]
         public string id { get; set; }
         public string kehoachtb_id { get; set; }
-        public string ma_nv { get; set; }
+        public string ma_nd { get; set; }
         public DateTime? ngay_th { get; set; }
         public int ket_qua { get; set; }
         public string ghichu { get; set; }
