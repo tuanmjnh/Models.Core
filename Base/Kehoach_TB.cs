@@ -17,10 +17,8 @@
         public string diachi_tb { get; set; }
         public string so_dt { get; set; }
         public string ma_nd { get; set; }
-        public string de_xuat { get; set; }
         public int thang_bd { get; set; }
         public int thang_kt { get; set; }
-        public DateTime? ngay_th { get; set; }
         public string ghichu { get; set; }
         public string ip_nhap { get; set; }
         public string nguoi_nhap { get; set; }
