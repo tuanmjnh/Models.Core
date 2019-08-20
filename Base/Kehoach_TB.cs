@@ -7,7 +7,7 @@
     [Table("kehoach_tb")]
     public partial class Kehoach_TB
     {
-        [Dapper.Contrib.Extensions.ExplicitKey]
+        [Dapper.Contrib.Extensions.Key]
         public string id { get; set; }
         public int donvi_id { get; set; }
         public int nhom_kh { get; set; }
